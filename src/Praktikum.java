@@ -7,7 +7,7 @@ public class Praktikum {
         System.out.println("Введите год:");
         int year = scanner.nextInt();
 
-        String leapDateStr = "13.09."+year;
+        String leapDateStr = "13.09."+year; //Лшняя переменная, но ничего критичного
         if (isLeapYear(year)) {
             leapDateStr = "12.09."+year;
         }
